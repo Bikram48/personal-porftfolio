@@ -601,11 +601,35 @@ video {
 }
 @media (min-width: 768px){
 
+  .md\:relative{
+    position: relative;
+  }
+
+  .md\:top-0{
+    top: 0px;
+  }
+
   .md\:block{
     display: block;
   }
 
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:hidden{
     display: none;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:bg-transparent{
+    background-color: transparent;
+  }
+
+  .md\:p-0{
+    padding: 0px;
   }
 }

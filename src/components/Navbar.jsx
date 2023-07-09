@@ -47,7 +47,7 @@ export default function Navbar() {
             )}
           </div>
           <ul
-            className={`absolute bg-black top-[70px] right-0 left-0 flex flex-col items-center p-10 ${
+            className={`absolute bg-black top-[70px] right-0 left-0 flex flex-col items-center p-10 md:relative md:flex md:flex-row md:bg-transparent md:top-0 md:p-0 ${
               menu ? "flex" : "hidden"
             }`}
           >
