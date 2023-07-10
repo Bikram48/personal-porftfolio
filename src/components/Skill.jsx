@@ -3,7 +3,7 @@ import { css, html, js, react, tailwind } from "./imports.js";
 
 export default function Skill() {
   return (
-    <div className="bg-body text-white p-6 md:p-20">
+    <div className="bg-body text-white p-6 md:p-20" id="skills">
       <div className="flex mt-6 items-center">
         <div className="w-4 h-1 bg-[#de1054] mr-4"></div>
         <h2 className="text-3xl">Skills</h2>

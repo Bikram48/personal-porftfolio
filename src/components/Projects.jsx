@@ -3,7 +3,7 @@ import project from "../assets/project_one.png";
 
 export default function Projects() {
   return (
-    <div className="bg-body text-white p-6 md:p-20">
+    <div className="bg-body text-white p-6 md:p-20" id="projects">
       <div className="flex item-center justify-center items-center">
         <div className="w-4 h-1 bg-[#de1054] mr-4"></div>
         <h2 className="text-3xl">Projects</h2>

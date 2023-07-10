@@ -51,10 +51,18 @@ export default function Navbar() {
               menu ? "flex" : "hidden"
             }`}
           >
-            <li className="p-3">About</li>
-            <li className="p-3">Skills</li>
-            <li className="p-3">Project</li>
-            <li className="p-3">Contact</li>
+            <li className="p-3">
+              <a href="#about">About</a>
+            </li>
+            <li className="p-3">
+              <a href="#skills">Skills</a>
+            </li>
+            <li className="p-3">
+              <a href="#projects">Projects</a>
+            </li>
+            <li className="p-3">
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </nav>
