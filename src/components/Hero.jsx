@@ -1,9 +1,13 @@
 import React from "react";
 import profile from "../assets/profile.jpg";
 
-export default function Hero() {
+export default function Hero({ mode }) {
   return (
-    <div className="bg-body text-white font-roboto p-5 md:px-20 md:py-10 md:flex md:gap-20">
+    <div
+      className={`${
+        mode ? "bg-white text-body" : "bg-body text-white"
+      } font-roboto p-5 md:px-20 md:py-10 md:flex md:gap-20`}
+    >
       <div>
         <h1 className="text-4xl font-bold flex flex-col gap-2 md:text-6xl">
           <span className="flex items-center gap-5">

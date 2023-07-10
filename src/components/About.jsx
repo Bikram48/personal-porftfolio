@@ -1,8 +1,11 @@
 import React from "react";
 
-export default function About() {
+export default function About({ mode }) {
   return (
-    <div className="bg-body text-white p-6" id="about">
+    <div
+      className={`${mode ? "bg-white text-body" : "bg-body text-white"} p-6`}
+      id="about"
+    >
       <div className="flex item-center justify-center items-center">
         <div className="w-4 h-1 bg-[#de1054] mr-4"></div>
         <h2 className="text-3xl">About Me</h2>
