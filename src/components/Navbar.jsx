@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="bg-body text-white w-full">
       <nav className="relative">
         <div className="flex justify-between p-5 items-center md:px-20 md:py-10">
-          <h1 className="font-roboto font-semibold text-2xl uppercase md:text-3xl">
+          <h1 className="font-roboto font-semibold text-2xl uppercase">
             BikramWeb
           </h1>
           <div className="md:hidden">
@@ -47,7 +47,7 @@ export default function Navbar() {
             )}
           </div>
           <ul
-            className={`absolute md:text-xl bg-black top-[70px] right-0 left-0 flex flex-col items-center p-10 md:relative md:flex md:flex-row md:bg-transparent md:top-0 md:p-0 ${
+            className={`absolute md:text-lg bg-black top-[70px] right-0 left-0 flex flex-col items-center p-10 md:relative md:flex md:flex-row md:bg-transparent md:top-0 md:p-0 ${
               menu ? "flex" : "hidden"
             }`}
           >
