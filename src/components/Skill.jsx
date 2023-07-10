@@ -9,7 +9,7 @@ export default function Skill() {
         <h2 className="text-3xl">Skills</h2>
       </div>
       <div className="mt-6 md:flex md:justify-between md:items-center md:mt-11">
-        <h3 className="hidden md:block text-xl basis-2/4">FrontEnd</h3>
+        <h3 className="hidden text-4xl md:block">FrontEnd</h3>
         <div className="grid grid-cols-3 gap-10 basis-2/4">
           <div className="flex flex-col items-center w-1/2">
             <img src={react} />

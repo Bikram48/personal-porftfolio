@@ -7,7 +7,7 @@ export default function About() {
         <div className="w-4 h-1 bg-[#de1054] mr-4"></div>
         <h2 className="text-3xl">About Me</h2>
       </div>
-      <div className="mt-6 text-lg md:max-w-4xl md:mx-auto md:text-xl">
+      <div className="mt-6 text-lg md:max-w-4xl md:mx-auto md:text-about">
         <p>
           As a passionate Front End Developer, I am driven by the desire to
           create exceptional user experiences through innovative and visually
