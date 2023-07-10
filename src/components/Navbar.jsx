@@ -12,52 +12,9 @@ export default function Navbar({ click, mode }) {
           <h1 className="font-roboto font-semibold text-2xl uppercase">
             BikramWeb
           </h1>
-          <div className="md:hidden">
-            {menu ? (
-              <svg
-                onClick={() => setMenu(false)}
-                className="w-8"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.5"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                ></path>
-              </svg>
-            ) : (
-              <svg
-                onClick={() => setMenu(true)}
-                className="w-8"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.5"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                ></path>
-              </svg>
-            )}
-          </div>
-          <ul
-            className={`absolute md:text-lg ${
-              mode ? "bg-white text-body" : "bg-black text-white"
-            } top-[70px] right-0 left-0 flex flex-col items-center p-10 md:relative md:flex md:flex-row md:bg-transparent md:top-0 md:p-0 ${
-              menu ? "flex" : "hidden"
-            }`}
-          >
+          <div className="flex gap-4 items-center">
             <li
-              className={`p-3 mr-2 rounded-full ${
+              className={`list-none p-3 mr-2 rounded-full ${
                 mode ? "bg-body text-white" : "bg-white text-black"
               } cursor-pointer`}
               onClick={() => click()}
@@ -78,19 +35,65 @@ export default function Navbar({ click, mode }) {
                 ></path>
               </svg>
             </li>
-            <li className="p-3">
-              <a href="#about">About</a>
-            </li>
-            <li className="p-3">
-              <a href="#skills">Skills</a>
-            </li>
-            <li className="p-3">
-              <a href="#projects">Projects</a>
-            </li>
-            <li className="p-3">
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
+
+            <div className="md:hidden">
+              {menu ? (
+                <svg
+                  onClick={() => setMenu(false)}
+                  className="w-8"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              ) : (
+                <svg
+                  onClick={() => setMenu(true)}
+                  className="w-8"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  ></path>
+                </svg>
+              )}
+            </div>
+            <ul
+              className={`absolute md:text-lg ${
+                mode ? "bg-white text-body" : "bg-black text-white"
+              } top-[70px] right-0 left-0 flex flex-col items-center p-10 md:relative md:flex md:flex-row md:bg-transparent md:top-0 md:p-0 ${
+                menu ? "flex" : "hidden"
+              }`}
+            >
+              <li className="p-3">
+                <a href="#about">About</a>
+              </li>
+              <li className="p-3">
+                <a href="#skills">Skills</a>
+              </li>
+              <li className="p-3">
+                <a href="#projects">Projects</a>
+              </li>
+              <li className="p-3">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
