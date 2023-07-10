@@ -3,9 +3,9 @@ import profile from "../assets/profile.jpg";
 
 export default function Hero() {
   return (
-    <div className="bg-body text-white font-roboto p-5">
+    <div className="bg-body text-white font-roboto p-5 md:px-20 md:py-10 md:flex md:gap-20">
       <div>
-        <h1 className="text-4xl font-bold flex flex-col gap-2">
+        <h1 className="text-4xl font-bold flex flex-col gap-2 md:text-6xl">
           <span className="flex items-center gap-5">
             Hi{" "}
             <svg
@@ -40,13 +40,13 @@ export default function Hero() {
           <span>Front-end Developer</span>
         </h1>
 
-        <p className="mt-6 text-xl">
+        <p className="mt-6 text-xl md:text-hero md:mt-10">
           I design and develop experiences that make people’s lives simpler
-          through Web and Mobile apps.I work with FIgma , HTML5, CSS3,
-          JavaScript, React, ReactNative and Flutter.
+          through Web apps. I work with HTML5, CSS3, JavaScript, React, Redux
+          and TypeScript.
         </p>
 
-        <div className="flex gap-3 mt-6">
+        <div className="flex gap-3 mt-6 md:mt-10 md:mb-10">
           <button className="border px-4 py-2">Hire Me</button>
           <button className="border px-4 py-2">My Projects</button>
         </div>

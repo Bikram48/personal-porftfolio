@@ -588,6 +588,10 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-hero{
+  font-size: 1.5rem;
+  line-height: 45px;
+}
 .font-bold{
   font-weight: 700;
 }
@@ -617,6 +621,14 @@ video {
     top: 0px;
   }
 
+  .md\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .md\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -629,11 +641,50 @@ video {
     flex-direction: row;
   }
 
+  .md\:gap-20{
+    gap: 5rem;
+  }
+
   .md\:bg-transparent{
     background-color: transparent;
   }
 
   .md\:p-0{
     padding: 0px;
+  }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-hero{
+    font-size: 1.5rem;
+    line-height: 45px;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }

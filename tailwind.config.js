@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
       },
+      fontSize: {
+        hero: ["1.5rem", { lineHeight: "45px" }],
+      },
     },
   },
   plugins: [],
