@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Contact({ mode }) {
   return (
@@ -14,9 +14,21 @@ export default function Contact({ mode }) {
         <h2 className="text-3xl">BIKRAMCHAND</h2>
         <p>chandbikram001@gmail.com - 9849321710</p>
         <div className="flex gap-4">
-          <FaFacebook />
-          <FaGithub />
-          <FaInstagram />
+          <a href="https://www.facebook.com/bikram.ch.54/" target="_blank">
+            <FaFacebook />
+          </a>
+          <a href="https://github.com/Bikram48" target="__blank">
+            <FaGithub />
+          </a>
+          <a href="https://www.instagram.com/thisisbikram_/" target="_blank">
+            <FaInstagram />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/bikram-chand-1b78b4228/"
+            target="_blank"
+          >
+            <FaLinkedin />
+          </a>
         </div>
       </div>
     </div>

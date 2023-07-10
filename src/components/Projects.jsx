@@ -21,8 +21,18 @@ export default function Projects({ mode }) {
           <div className="flex flex-col items-center mt-6 gap-6">
             <h2 className="font-bold text-xl">Agency Landing Page</h2>
             <div className="flex gap-3 mt-2">
-              <button className="border px-4 py-2">Code</button>
-              <button className="border px-4 py-2">View Demo</button>
+              <a
+                href="https://github.com/Bikram48/raven-web-agency"
+                target="__blank"
+              >
+                <button className="border px-4 py-2">Code</button>
+              </a>
+              <a
+                href="https://extraordinary-cheesecake-e1c7fa.netlify.app/"
+                target="__blank"
+              >
+                <button className="border px-4 py-2">View Demo</button>
+              </a>
             </div>
           </div>
         </div>
