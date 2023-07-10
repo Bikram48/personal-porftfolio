@@ -27,10 +27,7 @@ export default function Projects({ mode }) {
               >
                 <button className="border px-4 py-2">Code</button>
               </a>
-              <a
-                href="https://extraordinary-cheesecake-e1c7fa.netlify.app/"
-                target="__blank"
-              >
+              <a href="https://raven-agency.netlify.app/" target="__blank">
                 <button className="border px-4 py-2">View Demo</button>
               </a>
             </div>
