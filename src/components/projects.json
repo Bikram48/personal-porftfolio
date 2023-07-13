@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Agency Landing Page",
+    "status": "completed",
+    "image": "images/project_one.png",
+    "url": "https://raven-agency.netlify.app/",
+    "github": "https://github.com/Bikram48/raven-web-agency"
+  },
+  {
+    "id": 2,
+    "title": "The Daily News",
+    "status": "ongoing",
+    "image": "images/project_two.png",
+    "url": "",
+    "github": "https://github.com/Bikram48/thedailynews"
+  }
+]

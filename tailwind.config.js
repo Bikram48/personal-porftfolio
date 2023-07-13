@@ -13,6 +13,9 @@ module.exports = {
         hero: ["1.5rem", { lineHeight: "45px" }],
         about: ["1.25rem", { lineHeight: "40px" }],
       },
+      height: {
+        250: "250px",
+      },
     },
   },
   plugins: [],
