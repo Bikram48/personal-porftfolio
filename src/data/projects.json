@@ -9,8 +9,16 @@
   },
   {
     "id": 2,
-    "title": "The Daily News",
+    "title": "MoviesJoy",
     "status": "ongoing",
+    "image": "images/project_three.png",
+    "url": "https://joymovies.netlify.app/",
+    "github": "https://github.com/Bikram48/moviesjoy-clone-react-redux"
+  },
+  {
+    "id": 3,
+    "title": "The Daily News",
+    "status": "completed",
     "image": "images/project_two.png",
     "url": "",
     "github": "https://github.com/Bikram48/thedailynews"

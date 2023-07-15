@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProjectList({ image, title, status, github, url }) {
   return (
-    <div className="md:basis-2/4 border border-gray p-6">
+    <div className="md:basis-[48%] border border-gray p-6">
       <div className="relative">
         <img
           className="md:h-250 md:w-full md:object-cover"
