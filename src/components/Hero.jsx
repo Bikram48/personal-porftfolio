@@ -46,8 +46,7 @@ export default function Hero({ mode }) {
 
         <p className="mt-6 text-xl md:text-hero md:mt-10">
           I design and develop experiences that make people’s lives simpler
-          through Web apps. I work with HTML5, CSS3, JavaScript, React, Redux
-          and TypeScript.
+          through Web apps. I work with HTML5, CSS3, JavaScript, React and Redux
         </p>
 
         <div className="flex gap-3 mt-6 md:mt-10 md:mb-10">
