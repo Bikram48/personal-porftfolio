@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "MoviesJoy",
-    "status": "ongoing",
+    "status": "completed",
     "image": "images/project_three.png",
     "url": "https://joymovies.netlify.app/",
     "github": "https://github.com/Bikram48/moviesjoy-clone-react-redux"
@@ -22,5 +22,13 @@
     "image": "images/project_two.png",
     "url": "",
     "github": "https://github.com/Bikram48/thedailynews"
+  },
+  {
+    "id": 4,
+    "title": "Sorting Algo Visualizer",
+    "status": "ongoing",
+    "image": "images/project_four.png",
+    "url": "https://sort-algo-visualize.netlify.app/",
+    "github": "https://github.com/Bikram48/sorting-algorithms-visualizer"
   }
 ]
